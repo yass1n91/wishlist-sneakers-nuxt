@@ -19,7 +19,7 @@ Une application full-stack simple pour gérer sa wishlist de sneakers. Construit
 ## 📋 Prérequis
 
 - Node.js 18+ installé
-- MongoDB (local ou MongoDB Atlas - gratuit)
+- MongoDB (MongoDB Atlas - gratuit)
 - npm
 
 ## 🚀 Installation et lancement
@@ -151,7 +151,6 @@ npm run generate # Générer un site statique (si pas de SSR)
 
 - Vérifiez que le fichier `.env` existe et contient `NUXT_MONGODB_URI`
 - Pour Atlas : vérifiez que votre IP est autorisée dans "Network Access"
-- Pour local : vérifiez que MongoDB est démarré
 
 ### Erreur de modules
 
