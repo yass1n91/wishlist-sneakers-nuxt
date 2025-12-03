@@ -1,28 +1,28 @@
-# Sneaker Wishlist 🎯
+# Sneaker Wishlist 
 
 Une application full-stack simple pour gérer sa wishlist de sneakers. Construite avec Nuxt 3, TypeScript, TailwindCSS et MongoDB.
 
-## 🎨 Fonctionnalités
+## Fonctionnalités
 
-- ✅ **Ajouter une sneaker** : nom, marque, prix et note (1-5 étoiles)
-- ✅ **Voir la liste** : affichage en cards avec design moderne
-- ✅ **Modifier** : édition inline directement sur la card
-- ✅ **Supprimer** : suppression avec confirmation
+-  **Ajouter une sneaker** : nom, marque, prix et note (1-5 étoiles)
+-  **Voir la liste** : affichage en cards avec design moderne
+-  **Modifier** : édition inline directement sur la card
+-  **Supprimer** : suppression avec confirmation
 
-## 🛠️ Stack technique
+## Stack technique
 
 - **Nuxt 3** : Framework Vue.js avec SSR et routing automatique
 - **TypeScript** : Typage statique pour éviter les erreurs
 - **TailwindCSS** : Framework CSS utilitaire pour le design
 - **MongoDB** : Base de données NoSQL pour stocker les sneakers
 
-## 📋 Prérequis
+## Prérequis
 
 - Node.js 18+ installé
 - MongoDB (MongoDB Atlas - gratuit)
 - npm
 
-## 🚀 Installation et lancement
+## Installation et lancement
 
 ### 1. Installer les dépendances
 
@@ -55,7 +55,7 @@ npm run dev
 
 L'application sera accessible sur [http://localhost:3000](http://localhost:3000)
 
-## 🏗️ Build pour la production
+## Build pour la production
 
 ### Build du projet
 
@@ -81,7 +81,7 @@ Le dossier `.output/` contient tout ce qu'il faut pour déployer. Vous pouvez :
 - **Déployer sur un serveur Node.js** : utilisez `node .output/server/index.mjs`
 - **Générer un site statique** : utilisez `npm run generate` (si pas de SSR nécessaire)
 
-## 📁 Structure du projet
+## Structure du projet
 
 ```
 projetnuxt/
@@ -104,7 +104,7 @@ projetnuxt/
 └── README.md
 ```
 
-## 🔧 Comment ça fonctionne
+## Comment ça fonctionne
 
 ### Architecture
 
@@ -145,7 +145,7 @@ npm run preview  # Prévisualiser le build
 npm run generate # Générer un site statique (si pas de SSR)
 ```
 
-## 🐛 Dépannage
+## Dépannage
 
 ### Erreur de connexion MongoDB
 
@@ -159,7 +159,7 @@ rm -rf node_modules package-lock.json
 npm install
 ```
 
-## 📚 Ressources
+## Ressources
 
 - [Documentation Nuxt 3](https://nuxt.com/docs)
 - [Documentation MongoDB](https://www.mongodb.com/docs/)
